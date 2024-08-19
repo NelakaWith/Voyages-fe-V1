@@ -1,0 +1,65 @@
+/*
+Voyages
+Author : Nelaka Withanage
+*/
+a{
+  text-decoration: none;
+  color: #f7f7f7;
+  &:hover{
+    text-decoration: none;
+    color: #f7f7f7;
+  }
+}
+textarea{
+  resize: vertical;
+}
+/*color shades*/
+$primary : #CAC4D5;
+$p_shade_1 : #948F9F;
+$p_shade_2 : #625D6C;
+$p_shade_3 : #34303D;
+$p_shade_4 : #070013;
+$shade_1 : rgba(98, 93, 108, 0.5);
+$shade_2 : rgba(0, 0, 0, 0.85);
+.nav-background-top{
+  background-color: $shade_1;
+}
+.nav-background-bottom{
+  background-color: $p_shade_1;
+}
+.section-title{
+  h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+}
+
+/*bs4 overrides*/
+.form-control{
+  border-radius: 0;
+}
+.btn{
+  border-radius: 0;
+}
+
+/*trnasitions*/
+.trs-smooth-out{
+  transition: all 400ms ease-out;
+}
+/*animations*/
+@keyframes  aboutUsAnimation{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.aboutUsAnimation{
+  animation: aboutUsAnimation 1000ms ease;
+}
+
+

@@ -1,0 +1,53 @@
+
+.options{
+  padding-top: 40px;
+  .travel-slider{
+    .travel-options{
+      .slide{
+        .image{
+          width: 100%;
+          float: left;
+          height: 400px;
+        }
+        .content{
+          padding: 10px 0px;
+          width: 100%;
+          float: left;
+          p{
+            font-size: 1.5rem;
+            font-weight: 300;
+          }
+        }
+      }
+      .slick-next {
+        right: 10px;
+      }
+      .slick-prev{
+        left: 10px;
+      }
+      .slick-arrow{
+        &:before{
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .options {
+    .travel-slider {
+      .travel-options {
+        .slide {
+          .image {
+            width: 50%;
+          }
+          .content{
+            padding: 10px 20px;
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}

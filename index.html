@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" class="home">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Explore | Voyages</title>
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="nav" class="navigation">
+            <div id="navmenu" class="navmenu">
+                <div id="navtrigger" class="bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="d-md-flex d-lg-flex align-items-center justify-content-end menu" id="dropmenu">
+                    <li class="menu-item"><a href="./index.html">Home</a></li>
+                    <li class="menu-item"><a href="./featured.html">Featured</a></li>
+                    <li class="menu-item">About US</li>
+                    <li class="menu-item">Services</li>
+                    <li class="menu-item">Testimonials</li>
+                    <li class="menu-item">Reach Us</li>
+                    <li class="menu-item">Blog</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div id="hero" class="hero back-drop d-md-flex d-lg-flex">
+                <div class="container d-md-flex d-lg-flex align-self-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6  hero-text">
+                        <h1 class="hero-title">Hi voyagers!</h1>
+                        <p class="hero-para">
+                            Pack your bags and get set....
+                        </p>
+                        <a href="#intro" class="scrollLink"><h2 class="hero-explore">Explore <i class="fas fa-arrow-down"></i></h2></a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 quick-search d-none">
+                        <div class="quick-form">
+                            <ul class="nav nav-pills" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="Train" aria-selected="true">Train</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="Taxi" aria-selected="false">Taxi</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <form action="">
+                                        <div class="row">
+                                            <div class="form-group col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <label for="exampleFormControlSelect1">Departure</label>
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <label for="exampleFormControlSelect1">Arrival</label>
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <label for="exampleFormControlInput1">Date</label>
+                                                <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                            </div>
+                                            <div class="form-group col-12 col-sm-12 col-md-12 col-lg-12">
+                                                <button type="submit" class="btn btn-primary">Check Trains</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <form action="">
+                                        <div class="row">
+                                            <div class="form-group col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <label for="exampleFormControlInput1">Pickup</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Pickup point">
+                                            </div>
+                                            <div class="form-group col-12 col-sm-12 col-md-6 col-lg-6">
+                                                <label for="exampleFormControlInput1">Destination </label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Destination">
+                                            </div>
+                                            <div class="form-group col-12 col-sm-12 col-md-12 col-lg-12">
+                                                <button type="submit" class="btn btn-primary">Hail a Taxi</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="featured" class="featured d-flex">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 section-title">
+                            <h2 class="text-center">Featuring</h2>
+                        </div>
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 d-flex align-self-stretch featured-tile">
+                            <div class="featured-tile-inner">
+                                <div class="featured-fig"></div>
+                                <h2>Heritage</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, commodi consequatur cum cumque deleniti distinctio explicabo fuga illo illum laudantium minus nemo nihil pariatur perferendis quos repudiandae sit suscipit unde! lorem</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 d-flex align-self-stretch featured-tile">
+                            <div class="featured-tile-inner">
+                                <div class="featured-fig"></div>
+                                <h2>Wildlife</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, commodi consequatur cum cumque deleniti distinctio explicabo fuga illo illum laudantium minus nemo nihil pariatur perferendis quos repudiandae sit suscipit unde!</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 d-flex align-self-stretch featured-tile">
+                            <div class="featured-tile-inner">
+                                <div class="featured-fig"></div>
+                                <h2>Food</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, commodi consequatur cum cumque deleniti distinctio explicabo fuga illo illum laudantium minus nemo nihil pariatur perferendis quos repudiandae sit suscipit unde!</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 d-flex align-self-stretch featured-tile">
+                            <div class="featured-tile-inner">
+                                <div class="featured-fig"></div>
+                                <h2>Sand</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, commodi consequatur cum cumque deleniti distinctio explicabo fuga illo illum laudantium minus nemo nihil pariatur perferendis quos repudiandae sit suscipit unde!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="intro" class="intro">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div id="intro-cover" class="intro-cover">
+                                <h2 class="display-4">Check your bucket list ...</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda at dolor doloribus, earum eius eos exercitationem facere fugit iusto nam nemo neque nobis, numquam odit, optio sequi unde voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <img src="assets/images/hicker_1.png" alt="hiker">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="options">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 section-title">
+                            <h2 class="text-center">We provide</h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="travel-slider">
+                                <div class="travel-options">
+                                    <div class="slide">
+                                        <div class="image" style="background: url('assets/images/flight.jpg') no-repeat center center;
+            background-size: cover;"></div>
+                                        <div class="content">
+                                            <h2 class="display-4">Flights</h2>
+                                            <p>
+                                                "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text...."
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="image" style="background: url('assets/images/hotels.jpg') no-repeat center center;
+            background-size: cover;"></div>
+                                        <div class="content">
+                                            <h2 class="display-4">Hotels</h2>
+                                            <p>
+                                                "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.."
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="image" style="background: url('assets/images/outdoor.jpg') no-repeat center center;
+            background-size: cover;"></div>
+                                        <div class="content">
+                                            <h2 class="display-4">Outdoor experiences </h2>
+                                            <p>
+                                                "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text....."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-us"></div>
+            <div class="testimonials">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 section-title">
+                            <h2 class="text-center">What People Are Saying</h2>
+                        </div>
+                    </div>
+                    <div class="row tst-list">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 tst-entry">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur consequatur deserunt esse fugiat incidunt inventore iure maxime mollitia non nulla omnis, porro, possimus quae quo, ratione sapiente tempora tempore!</p>
+                            <img class="tst-author" src="assets/images/avatar.png" alt="author_name"/>
+                            <h5>John Doe</h5>
+                            <h6>New York, USA</h6>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 tst-entry">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur consequatur deserunt esse fugiat incidunt inventore iure maxime mollitia non nulla omnis, porro, possimus quae quo, ratione sapiente tempora tempore!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur consequatur deserunt esse fugiat incidunt inventore iure maxime mollitia non nulla omnis, porro, possimus quae quo, ratione sapiente tempora tempore!</p>
+                            <img class="tst-author" src="assets/images/avatar.png" alt="author_name"/>
+                            <h5>John Doe</h5>
+                            <h6>New York, USA</h6>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 tst-entry">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur consequatur deserunt esse fugiat incidunt inventore iure maxime mollitia non nulla omnis, porro, possimus quae quo, ratione sapiente tempora tempore!</p>
+                            <img class="tst-author" src="assets/images/avatar.png" alt="author_name"/>
+                            <h5>John Doe</h5>
+                            <h6>New York, USA</h6>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 tst-entry">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur consequatur deserunt esse fugiat incidunt inventore iure maxime mollitia non nulla omnis, porro, possimus quae quo, ratione sapiente tempora tempore! possimus quae quo, ratione sapiente tempora tempore!</p>
+                            <img class="tst-author" src="assets/images/avatar.png" alt="author_name"/>
+                            <h5>John Doe</h5>
+                            <h6>New York, USA</h6>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 tst-entry">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur consequatur deserunt esse fugiat incidunt inventore iure maxime mollitia non nulla omnis, porro, possimus quae quo, ratione sapiente tempora tempore!</p>
+                            <img class="tst-author" src="assets/images/avatar.png" alt="author_name"/>
+                            <h5>John Doe</h5>
+                            <h6>New York, USA</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contactus">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 section-title">
+                            <h2 class="text-center">Say hello!</h2>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="fname">First Name</label>
+                                    <input type="email" class="form-control" id="fname" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="lname">Last Name</label>
+                                    <input type="email" class="form-control" id="lname" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Example textarea</label>
+                                    <textarea class="form-control" id="message" rows="3"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="map" id="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 social-links">
+                        <h3>Find us on</h3>
+                        <a href=""><i class="fab fa-facebook-square"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-google-plus"></i></a>
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 details">
+                        <h2>Voyages</h2>
+                        <p>&copy; 2019 | <a href="">Privacy Policy</a></p>
+                        <small>All Rights Reserved</small>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 contacts">
+                        <a href="tel:+1-202-555-0157"><h2>+1-202-555-0157</h2></a>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <p>info@yourcompnayname.com</p>
+                        <hr>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 map">
+                        <p>
+                            <a href="#">Home</a> |
+                            <a href="#">Featured</a> |
+                            <a href="#">About US</a> |
+                            <a href="#">Services</a> |
+                            <a href="#">Testimonials</a> |
+                            <a href="#">Reach Us</a> |
+                            <a href="#">Blog</a> |
+                        </p>
+                        <small>Theme by NS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/Jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3PVpUePeJt856_XZ8jnFghZGbcyNK8Pc&callback=initMap" async defer></script>
+        <script src="js/scrollto.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            /*calls*/
+            window.addEventListener("resize", setHeights);
+            document.getElementById('navtrigger').addEventListener("click", expandMenu);
+            window.onscroll = function() {
+                scrollFunction();
+                parellaxScroll('intro-cover', 50, .8, 5);
+                parellaxScroll('hero', 0, 1.2, 1);
+            };
+
+            setHeights();
+            initOptionSlider();
+            initTstSlider();
+            initMap();
+        </script>
+    </body>
+</html>
