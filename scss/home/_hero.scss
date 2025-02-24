@@ -1,0 +1,70 @@
+
+/*hero*/
+
+.hero{
+  width: 100%;
+  padding-top: 65px;
+  height: auto;
+  position: relative;
+  z-index: 0;
+  color: #ffffff;
+  background: url('../assets/images/mt-fuji-571387.jpg') no-repeat fixed;
+  background-size: cover;
+  &:before{
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .hero-text{
+    padding-top: 20px;
+    .hero-title{
+      font-weight: 300;
+      font-size: 3rem;
+    }
+    .hero-para{
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    .hero-explore{
+      cursor: pointer;
+      font-weight: 300;
+    }
+  }
+  .quick-search{
+    .nav{
+      .nav-item{
+        .nav-link{
+          border-radius: 0;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 426px) {
+  .hero{
+    .hero-text{
+      .hero-title{
+        font-size: 3.5rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .hero{
+    .hero-text{
+      .hero-title{
+        font-size: 4.5rem;
+      }
+    }
+  }
+}

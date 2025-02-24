@@ -1,0 +1,185 @@
+.featured-details{
+    .featured-slider{
+        height: auto;
+        .ft-slide{
+            height: auto;
+            padding-top: 90px;
+            padding-left: 40px;
+            padding-right: 40px;
+            position: relative;
+            z-index: 0; 
+            &:after{
+                    content: "";
+                    z-index: -1;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    position: absolute;
+                    background-color: rgba(0, 0, 0, 0.6);
+            }
+            .row{
+                .ft-slider-circle{
+                    width: 15rem;
+                    height: 15rem;
+                    cursor: pointer;
+                    border-radius: 50%;
+                    margin: 2.5rem auto; 
+                    position: relative;
+                    transform-origin: center;                    
+                    z-index: 0;
+                        &:hover{
+                            border-radius: 1rem;
+                        }  
+                }
+                .ft-story{       
+                    position: relative;
+                    z-index: 0; 
+                        h2,p{
+                            text-align: center;
+                            color: $p_shade_4;
+                            font-weight: 300;
+                            color: #fff;
+                        }
+                        h2{
+                            font-size: 2rem;
+                        }
+                        p{
+                            font-size: 1rem
+                        }
+                }
+            }
+        }
+        .fa-arrow-alt-circle-right{
+             right: 10px;
+        }
+        .fa-arrow-alt-circle-left{
+             left: 10px;
+        }
+        .slick-arrow{
+            position: absolute;
+            top: 50%;
+            bottom: 50%;
+            z-index: 1;
+            font-size: 3rem;
+            font-weight: 300;
+            cursor: pointer;
+            &:before{ 
+                color: $primary;
+            }
+        }
+        .heritage{
+            background-image: url("../assets/images/gothic-2796043_1920.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;       
+            .ft-slider-circle{
+                background-image: url("../assets/images/gothic-2796043_1920.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }       
+        }
+        .wildlife{
+            background-image: url("../assets/images/fox-1842565_1920.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;       
+            .ft-slider-circle{
+                background-image: url("../assets/images/fox-1842565_1920.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }     
+        }
+        .food{
+            background-image: url("../assets/images/food-1050813_1920.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;       
+            .ft-slider-circle{
+                background-image: url("../assets/images/food-1050813_1920.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }     
+        }
+        .sand{
+            background-image: url("../assets/images/beach-731137_1920.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;       
+            .ft-slider-circle{
+                background-image: url("../assets/images/beach-731137_1920.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }     
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .featured-details{
+        .featured-slider{
+            height: 100vh;
+            .ft-slide{
+                height: 100vh;
+                .row{
+                    position: relative;
+                    margin: 0 auto;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    .ft-slider-circle{     
+                        width: 10rem;
+                        height: 10rem;                     
+                        margin: 1rem auto;                      
+                        &:hover{
+                            border-radius: 2rem;
+                        }
+                    }
+                    .ft-story{
+                        margin: 0 auto;
+                        h2,p{
+                            text-align: left;
+                        }
+                        h2{
+                            font-size: 2rem;
+                        }
+                        p{
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1024px){
+    .featured-details{
+        .featured-slider{
+            .ft-slide{
+                .row{
+                    .ft-slider-circle{       
+                        width: 15rem;
+                        height: 15rem;             
+                        &:hover{
+                            widows: 100%;
+                            height: 20rem;
+                        }
+                    }
+                    .ft-story{
+                        h2{
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

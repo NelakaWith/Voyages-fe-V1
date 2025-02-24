@@ -1,0 +1,23 @@
+/*variables*/
+@import "common/vars";
+
+/*slick slider*/
+@import "slick/slick-theme";
+@import "slick/slick";
+
+/*wrappers*/
+@import "common/nav";
+@import "common/footer";
+
+/*home*/
+@import "home/hero";
+@import "home/featured";
+@import "home/intro";
+@import "home/options";
+@import "home/testimonials";
+@import "home/contactus";
+
+ /*featured*/
+ @import "featured/hero";
+ @import "featured/details"
+

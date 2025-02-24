@@ -1,0 +1,16 @@
+.main-featured{
+    .hero{
+        height: 600px;
+        background: url(../assets/images/eddy-boom-aAdlw9rNqfk.jpg) no-repeat center;
+        background-size: cover;
+    }
+}
+@media (min-width: 768px) {
+.main-featured{
+    .hero{
+            background: url(../assets/images/eddy-boom-aAdlw9rNqfk.jpg) no-repeat fixed;
+            background-size: cover;
+        }
+    }
+}
+  
